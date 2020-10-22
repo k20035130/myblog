@@ -17,4 +17,4 @@ Sketchfab.com (objects in 3D)
 Here is the image of the cat. 
   
 ![](media/cats.png)
-
+<img src="media/cats.png">
