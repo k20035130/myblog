@@ -15,5 +15,4 @@ Sketchfab.com (objects in 3D)
 4.	“Egyptian antiquities have formed part of the British Museum collection ever since its foundation in 1753 after receiving 160 Egyptian object from Sir Hans Sloane. After the defeat of the French forces under Napoleon at the Battle of the Nile in 1801, the Egyptian antiquities collected were confiscated by the British army and presented to the British Museum in 1803.”
 
 Here is the image of the cat. 
-![](media/cats.png) 
-
+![](../media/cats.png)
