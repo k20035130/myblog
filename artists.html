@@ -1,0 +1,9 @@
+---
+layout: page
+title: Chinese artists
+---
+
+{% for artist in site.data.artists %}
+  <h2>{{ artist. Name}}</h2>
+  <p>{{artist.Nationality}}, {{artist.Gender}}, {{artist.BirthYear}}---{{artist.DeathYear}}</p>
+{% endfor %}
