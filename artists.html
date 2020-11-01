@@ -4,7 +4,13 @@ title: Chinese artists
 ---
 
 {% for artist in site.data.artists %}
-  <p>{{ artist. Name}}</p>
+  <h3>{{artist.EnglishName}} {{artist.ChineseName}}</h3>
   <p>{{artist.Nationality}}, {{artist.Gender}}, {{artist.BirthYear}}---{{artist.DeathYear}}</p>
-  <img src= 'media/Chinese-artworks/{{ artists.Name | replace: " ", "_" }}/'
+  
+{% for i in (1..3) %}
+<img src="/media/Chinese-artworks/{{artist.EnglishName | replace: ' ' , '_' }}_{{artist.ChineseName}}/{{artist.EnglishName | replace: ' ' , '_' }}_0{{i}}.jpg">
+  {{ i }}
 {% endfor %}
+
+{% endfor %}
+/media/Chinese-artworks/Liu_Yuan_Shou_劉元壽/Liu_Yuanshou_01.jpeg
