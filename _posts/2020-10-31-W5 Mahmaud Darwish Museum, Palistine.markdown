@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week5-Mahmoud Darwish Museum, Palistine"
+title:  "Week5 - Mahmoud Darwish Museum, Palistine"
 date:   2020-10-31 22:13:35 +0100
 categories: jekyll update
 ---
